@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { io, Socket } from "socket.io-client";
 
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || "http://localhost:8000";
+const SERVER_URL = "https://wavelength-3e8g.onrender.com";
+
 
 
 type Player = { id: string; name: string };

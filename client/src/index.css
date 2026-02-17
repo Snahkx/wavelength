@@ -1,0 +1,17 @@
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #000; /* your app draws its own bg anyway */
+  color: white;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
